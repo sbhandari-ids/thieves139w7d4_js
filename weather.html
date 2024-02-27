@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="search_form">
+    <!-- <input id="city-zip"name="city-zip" placeholder="Enter City or ZipCode"> -->
+    <input name="city-zip" placeholder="Enter City or ZipCode" value="New York">
+
+    <button type="submit" id="search-btn" name="search-btn">Get Weather</button>
+    <!-- <button type="submit" id="search-btn" name="search-btn" onclick="displayData()">Get Weather</button> -->
+    </form>
+    <div class="city_country">
+    <p id="city-country" class="city-country"> </p>
+    </div>
+
+
+    <table id="high">
+        <th class="high">
+            High
+        </th>
+        <tr id="max_temp_row">
+
+        </tr>
+    </table>
+
+    <table id="low">
+        <th class="low">
+            Low
+        </th>
+        <tr id="min_temp_row">
+            
+        </tr>
+    </table>
+
+    <table id="forecast">
+        <th class="forecast">
+            Forecast
+        </th>
+        <tr id="forecast_row">
+            
+        </tr>
+    </table>
+
+    <table id="humidity">
+        <th class = "humid">
+            Humidity
+        </th>
+        <tr id="humidity_row">
+            
+        </tr>
+    </table>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
